@@ -1,0 +1,43 @@
+.friendly{
+    display: flex;
+}
+
+.bgImg {
+  width: 50%;
+}
+
+.bgImg img{
+    display: block;
+    width: 100%;
+}
+
+.content{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.content__block{
+    max-width: 878px;
+    padding: 78px 89px;
+    margin-left: -80px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.content__block h2{
+    margin-top: 8px;
+}
+
+.content__block h6{
+    font-weight: 500;
+}
+
+.content__block li{
+    margin-top: 35px;
+}
+
+.content__block li h6{
+    margin-bottom: 7px;
+}

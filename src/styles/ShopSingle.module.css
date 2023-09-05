@@ -1,0 +1,153 @@
+.products_details {
+  width: 1337px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 133px 0 90px 0;
+}
+
+.img {
+  position: relative;
+  width: 591px;
+  height: 563px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f9f8f8;
+  border-radius: 30px;
+}
+
+.category {
+  position: absolute;
+  top: 38px;
+  left: 35px;
+  background-color: var(--title-color);
+  padding: 6px 12px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.category p {
+  font-size: 15px;
+  font-weight: 600;
+  color: white;
+}
+
+.about_product {
+  width: 658px;
+  font-weight: 600;
+}
+
+.raiting_block {
+  margin: 9px 0 13px;
+}
+
+.about_product h3 {
+  font-weight: 600;
+}
+
+.price_block {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+}
+
+.price_block .old_price {
+  color: #b8b8b8;
+  font-size: 20px;
+  font-weight: 600;
+  text-decoration: line-through;
+}
+
+.price_block .new_price {
+  color: #274c5b;
+  text-align: center;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.about_product > p {
+  color: #525c60;
+  font-size: 18px;
+  font-weight: 400;
+  margin: 27px 0 35px;
+}
+
+.quantity_block {
+  display: flex;
+  align-items: center;
+  gap: 22px;
+}
+
+.quantity_block .qnt_inp {
+  text-align: center;
+  width: 134px;
+  height: 80px;
+  border-radius: 16px;
+  border: 2px solid #274c5b;
+  background: #fff;
+  color: #274c5b;
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.quantity_block p {
+  color: #274c5b;
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.product_info{
+    margin-bottom: 140px;
+}
+
+.info_buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 27px;
+}
+
+.info_buttons button:first-child {
+  padding: 23px 57px;
+  border-radius: 16px;
+  background-color: #274c5b;
+  color: #fff;
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.info_buttons button:last-child {
+  border-radius: 16px;
+  background-color: #eff6f1;
+  color: #274c5b;
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 25px;
+  font-weight: 700;
+  border: none;
+  padding: 23px 61px;
+}
+
+
+.product_description{
+    max-width: 1137px;
+    margin: auto;
+}
+.product_description p{
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.no_related{
+    text-align: center;
+}

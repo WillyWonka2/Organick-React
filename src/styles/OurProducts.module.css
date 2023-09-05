@@ -1,0 +1,21 @@
+.our_products{
+    padding: 176px 260px 200px 260px;
+}
+
+.btn{
+    margin-top: 122px;
+
+}
+
+.btn button{
+    margin: auto;
+}
+
+.our_products p{
+    text-align: center;
+}
+.our_products h2{
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top: 8px;
+}

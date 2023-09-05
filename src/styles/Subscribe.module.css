@@ -1,0 +1,32 @@
+.subs{
+    margin: 185px auto 117px;
+    padding: 105px 71px;
+    max-width: 1400px;
+    border-radius: 30px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.form_block form{
+    display: flex;
+    gap: 6px;
+}
+
+form input{
+    width: 350px;
+    border-radius: 16px;
+    border: none;
+    font-size: 18px;
+    font-family: var(--second-font);
+    padding-left: 23px;
+    font-style: italic;
+    font-weight: 400;
+    color: #ABABAB;
+}
+
+.content h2{
+    color: white;
+}

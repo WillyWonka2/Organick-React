@@ -1,0 +1,127 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 69px 162px;
+}
+
+.list {
+  width: 564px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.list h6 {
+  font-size: 20px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+}
+
+.logo h3 {
+  font-weight: 700;
+  font-size: 38px;
+}
+
+.search {
+  width: 376px;
+  height: 66px;
+  border-radius: 36px;
+  background-color: #fafafa;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.search input {
+  background-color: transparent;
+  outline: none;
+  border: none;
+  height: 100%;
+  padding-left: 36px;
+  font-size: 20px;
+  font-family: var(--second-font);
+  color: var(--title-color);
+}
+
+.searchIcon {
+  margin: 5px 6px;
+  cursor: pointer;
+  transition: 0.4s;
+}
+.searchIcon:hover {
+  transform: scale(1.1) rotate(20deg);
+}
+
+.cart {
+  width: 159px;
+  height: 66px;
+  border-radius: 33px;
+  border: 1px solid #e0e0e0;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.cart h6 {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.cart__icon {
+  margin: 5px 0 5px 6px;
+  display: flex;
+  align-items: center;
+}
+
+@keyframes bounce {
+  0%,
+  20%,
+  60%,
+  100% {
+    transform: translateY(0) rotate(0);
+  }
+
+  40% {
+    transform: translateY(-15px) rotate(20deg);
+  }
+
+  80% {
+    transform: translateY(-5px) rotate(-10deg);
+  }
+}
+
+.cart:hover .cart__icon {
+  animation: bounce 1s;
+}
+
+.underline_link {
+  position: relative;
+  text-decoration: none; /* Убираем стандартное подчеркивание */
+
+  /* Устанавливаем начальные стили для псевдоэлемента */
+  &:before {
+    content: "";
+    position: absolute;
+    bottom: -2px;
+    right: 0;
+    width: 0; /* Начальная ширина линии (0) */
+    height: 2px; /* Высота и толщина линии */
+    background-color: var(--title-color); /* Цвет линии */
+    transition: width 0.3s ease, right 0.3s ease; /* Анимация изменения ширины */
+  }
+
+  /* Анимация при наведении */
+  &:hover:before {
+    width: 100%;
+    left: 0; /* Увеличиваем ширину до 100% при наведении */
+    transition: width 0.3s ease, right 0.3s ease; /* Анимация изменения ширины */
+  }
+}
+
+.active::before{
+  width: 100%;
+}

@@ -1,0 +1,16 @@
+.offers{
+    padding: 200px 260px;
+    background-color: var(--title-color);
+}
+
+.head{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 50px;
+}
+
+.head h2{
+    margin-top: 8px;
+    color: white;
+}

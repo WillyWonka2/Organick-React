@@ -1,0 +1,18 @@
+.news{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 36px;
+    padding: 154px 260px;
+}
+
+.new_block{
+    padding: 110px 55px;
+    width: 682px;
+    border-radius: 30px;
+}
+
+.new_block h3{
+    margin-top: 5px;
+    width: 265px;
+}

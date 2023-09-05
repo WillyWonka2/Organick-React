@@ -1,0 +1,30 @@
+.hero {
+  padding: 247px 260px;
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.second_bg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.hero h1 {
+  margin: 8px 0 23px;
+}
+
+.default_hero{
+  text-align: center;
+  line-height: 368px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
