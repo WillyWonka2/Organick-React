@@ -49,22 +49,22 @@ const Header = () => {
             </NavLink>
           </li>
           <li>
-            <NavLink
+            <NavLink to={'/shop'}
               className={({ isActive }) =>
-                !isActive
+                isActive
                   ? `${styles.active} ${styles.underline_link} `
                   : `${styles.underline_link}`
               }
-              ƒ
+              
             >
               {" "}
               <h6>Shop</h6>
             </NavLink>
           </li>
           <li>
-            <NavLink
+            <NavLink to={'/portfolio'}
               className={({ isActive }) =>
-                !isActive
+                isActive
                   ? `${styles.active} ${styles.underline_link} `
                   : `${styles.underline_link}`
               }

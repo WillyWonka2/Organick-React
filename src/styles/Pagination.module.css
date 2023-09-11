@@ -1,0 +1,44 @@
+.btn_wrapp {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.btn_wrapp button {
+  cursor: pointer;
+}
+
+.btn {
+  border: 1px solid transparent;
+  padding: 6px 12px;
+  color: white;
+  font-size: 22px;
+  font-weight: 600;
+  background-color: #274c5b;
+  border-radius: 8px;
+  transition: .3s;
+}
+
+.btn:hover {
+  border: 1px solid #274c5b;
+  padding: 6px 12px;
+  color: var(--title-color);
+  background-color: #fff;
+  font-size: 22px;
+  font-weight: 600;
+  border-radius: 8px;
+}
+
+.activeBtn {
+  border: 1px solid #274c5b;
+  padding: 6px 12px;
+  color: var(--title-color);
+  background-color: #fff;
+  font-size: 22px;
+  font-weight: 600;
+  border-radius: 8px;
+}
+
+.container {
+  padding: 90px 20px 50px 20px;
+}

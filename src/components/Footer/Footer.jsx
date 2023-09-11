@@ -53,7 +53,7 @@ const Footer = () => {
               </Link>
             </li>
             <li>
-              <Link>
+              <Link to={'/404'}>
                 <p>404 Not Found</p>
               </Link>
             </li>

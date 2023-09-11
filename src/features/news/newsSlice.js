@@ -6,16 +6,19 @@ const newsSlice = createSlice({
     initialState: {
         list: weeklyNews,
         filtered: [],
-        isLoading: false
+        isLoading: false,
+        singleNew: {}
     },
     reducers: {
         // filterByPrice: (state, { payload }) => {
         //     state.filtered = state.list.filter(({ price }) => price < payload)
         // },
-        // getRelatedProducts: (state, { payload }) => {
-        //     const list = state.list.filter(({ category: { id } }) => id === payload)
-        // }
+        getSingleProduct: (state, { payload }) => {
+            const singleProd = state.list.filter(({id})=> id === +payload)
+            state.singleNew = singleProd[0]
+        }
     }
 })
 
+export const {getSingleProduct} = newsSlice.actions
 export default newsSlice.reducer;

@@ -5,6 +5,12 @@ const Counter = ({ targetNumber, content="" }) => {
   const [count, setCount] = useState(0);
   const [ref, inView] = useInView({ triggerOnce: true });
 
+  const updateCounter = () => {
+    if (count < targetNumber) {
+      setCount(prevCount => prevCount + 1);
+    }
+  };
+
   useEffect(() => {
     if (inView && count < targetNumber) {
       const animationFrame = requestAnimationFrame(updateCounter);
@@ -14,12 +20,6 @@ const Counter = ({ targetNumber, content="" }) => {
       };
     }
   }, [inView, count, targetNumber]);
-
-  const updateCounter = () => {
-    if (count < targetNumber) {
-      setCount(prevCount => prevCount + 1);
-    }
-  };
 
   return (
     <h2 ref={ref}>

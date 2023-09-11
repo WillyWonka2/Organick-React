@@ -4,7 +4,10 @@ export const ROUTES = {
     SHOP: '/shop',
     SHOP_SINGLE: '/shop/:id',
     SERVICE: '/service',
-    NEWS: '/news'
+    NEWS: '/news',
+    SINGLE_BLOG: '/news/:id',
+    PORTFOLIO: '/portfolio',
+    SINGLE_PORTFOLIO: '/portfolio/:id'
 }
 
 export default ROUTES

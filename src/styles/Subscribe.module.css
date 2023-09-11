@@ -1,5 +1,5 @@
 .subs{
-    margin: 185px auto 117px;
+    margin: 140px auto 117px;
     padding: 105px 71px;
     max-width: 1400px;
     border-radius: 30px;
@@ -29,4 +29,5 @@ form input{
 
 .content h2{
     color: white;
+    text-align: left;
 }

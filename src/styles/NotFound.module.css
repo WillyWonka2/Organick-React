@@ -1,0 +1,23 @@
+.error_page{
+    padding: 214px 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-right: 10%;
+    margin-bottom: 130px;
+}
+
+.error_page > div{
+     margin-left: auto;
+     max-width: 533px;
+}
+
+.error_page h1{
+    margin: 14px 0 9px;
+     text-align: center;
+}
+
+.error_page p{
+    margin-bottom: 36px;
+}
+
+

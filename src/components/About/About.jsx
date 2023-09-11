@@ -1,4 +1,7 @@
 import styles from "../../styles/About.module.css";
+
+import { Link } from "react-router-dom";
+
 import Button from "../UI/Button/Button";
 import AbouImg from "../../img/bg/aboutIMG.png";
 import OrganicImg from "../../img/bg/organic.png";
@@ -46,8 +49,10 @@ const About = () => {
             </div>
           </div>
         </div>
-
+        <Link to={'/shop'}>
         <Button title="Shop Now" />
+
+        </Link>
       </div>
     </section>
   );
