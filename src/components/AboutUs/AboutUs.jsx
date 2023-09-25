@@ -24,6 +24,7 @@ import { InstIcon } from "../../icons";
 
 import styles from "../../styles/AboutUs.module.css";
 import Button from "../UI/Button/Button";
+import { Link } from "react-router-dom";
 
 const AboutUs = () => {
   return (
@@ -66,7 +67,9 @@ const AboutUs = () => {
               </div>
             </div>
           </div>
-          <Button title={"Explore More"} />
+          <Link to="/service">
+            <Button title={"Explore More"} />
+          </Link>
         </div>
       </section>
       <section className={styles.why_choose}>

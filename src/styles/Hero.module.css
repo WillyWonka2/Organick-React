@@ -24,7 +24,10 @@
 
 .default_hero{
   text-align: center;
-  line-height: 368px;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.default_hero h1{
+  padding: 10%;
 }

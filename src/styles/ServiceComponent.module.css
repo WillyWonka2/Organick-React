@@ -1,0 +1,103 @@
+.what_we_grow {
+  max-width: 1400px;
+  margin: auto;
+  padding: 200px 0;
+}
+
+.what_we_grow a{
+    display: block;
+    margin: auto;
+}
+
+.what_we_grow h2{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.subtitle{
+    text-align: center;
+    margin-bottom: 7px;
+}
+
+.products_block {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.left {
+  text-align: right;
+}
+
+.left,
+.right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 30px;
+}
+
+.left h6,
+.right h6 {
+  margin: 5px 0;
+}
+
+.left img,
+.right img {
+  width: 50px;
+}
+
+.left img {
+  margin-right: 9px;
+}
+
+.service_img {
+  position: relative;
+}
+
+.left .service_img::before {
+  content: "";
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  border-radius: 100%;
+  background-color: #fff4cd;
+  bottom: -2px;
+  right: 4px;
+  z-index: -1;
+}
+
+.right img {
+  margin-left: 9px;
+}
+
+.right .service_img::before {
+    content: "";
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    border-radius: 100%;
+    background-color: #fff4cd;
+    bottom: -2px;
+    left: 4px;
+    z-index: -1;
+  }
+
+  .what_we_grow button{
+    margin: auto;
+  }
+
+  .organic_section{
+    padding-top: 9%;
+    padding-bottom: 35%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    margin-bottom: 140px;
+  }
+
+  .organic_head{
+    max-width: 670px;
+    margin: auto;
+    text-align: center;
+  }

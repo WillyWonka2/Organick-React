@@ -6,15 +6,26 @@ const Counter = ({ targetNumber, content="" }) => {
   const [ref, inView] = useInView({ triggerOnce: true });
 
   const updateCounter = () => {
-    if (count < targetNumber) {
+    if (count < targetNumber && targetNumber < 101) {
+      console.log(targetNumber)
       setCount(prevCount => prevCount + 1);
+    } else{
+      console.log(targetNumber)
+      setCount(prevCount => prevCount + 5);
     }
+    // while(count < targetNumber){
+    //   setInterval(()=>{
+    //     setCount(prevCount => prevCount + 1);
+    //   }, 1000)
+    // }
   };
+
+  // updateCounter()
 
   useEffect(() => {
     if (inView && count < targetNumber) {
       const animationFrame = requestAnimationFrame(updateCounter);
-
+      // updateCounter()
       return () => {
         cancelAnimationFrame(animationFrame);
       };

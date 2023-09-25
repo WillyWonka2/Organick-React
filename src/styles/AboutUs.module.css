@@ -240,6 +240,10 @@
     text-align: center;
 }
 
+.offers h2{
+  margin-bottom: 33px;
+}
+
 .offers_blocks{
     max-width: 1400px;
     margin: auto;
@@ -269,3 +273,6 @@
     font-weight: 500;
 }
 
+.team h2{
+  text-align: center;
+}

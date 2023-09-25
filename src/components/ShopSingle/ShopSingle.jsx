@@ -81,9 +81,9 @@ const ShopSingle = () => {
         </div>
       </section>
       {related.length < 1 ? (
-        <h2 style={{ marginBottom: "0px" }}>No Related Products</h2>
+        <h2 style={{ marginBottom: "0px", textAlign: 'center' }}>No Related Products</h2>
       ) : (
-        <h2>Related Products</h2>
+        <h2 style={{ marginBottom: "40px", textAlign: 'center' }}>Related Products</h2>
       )}
       {related.length && <ProductsList amount={4} list={related} />}
 

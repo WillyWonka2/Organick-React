@@ -10,6 +10,9 @@ import NotFound from "../NotFound/NotFound"
 import Shop from "../Shop/Shop";
 import Portfolio from "../Portfolio/Portfolio";
 import PortfolioSingle from "../Portfolio/PortfolioSingle";
+import ServiceComponent from "../ServiceComponent/ServiceComponent";
+import QulityStandart from "../QualityStandart/QulityStandart";
+
 
 const AppRoutes = () => {
   return (
@@ -22,6 +25,8 @@ const AppRoutes = () => {
       <Route path={ROUTES.SHOP} element={<Shop />} />
       <Route path={ROUTES.PORTFOLIO} element={<Portfolio />} />
       <Route path={ROUTES.SINGLE_PORTFOLIO} element={<PortfolioSingle/>} />
+      <Route path={ROUTES.SERVICE} element={<ServiceComponent/>} />
+      <Route path={ROUTES.QUALITY_STANDART} element={<QulityStandart/>}/>
       <Route path="*" element={<NotFound />} />
       {/* <Route path={ROUTES.FAVORITES} element={<Favourites />} />  */}
     </Routes>

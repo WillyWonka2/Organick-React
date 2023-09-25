@@ -1,8 +1,11 @@
 import { Link, NavLink } from "react-router-dom";
 import styles from "../../styles/Header.module.css";
 import { CartIcon, LogoIcon, SearchIcon } from "../../icons";
+import { useState } from "react";
 
 const Header = () => {
+  const [dropDown, setDropDown] = useState(false)
+
   return (
     <header className={styles.header}>
       <Link className={styles.logo} to={"/"}>
@@ -44,8 +47,9 @@ const Header = () => {
                   : `${styles.underline_link}`
               }
             >
-              {" "}
-              <h6>Pages</h6>
+
+              <h6>Our Team</h6>
+            
             </NavLink>
           </li>
           <li>

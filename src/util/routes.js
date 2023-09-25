@@ -7,7 +7,8 @@ export const ROUTES = {
     NEWS: '/news',
     SINGLE_BLOG: '/news/:id',
     PORTFOLIO: '/portfolio',
-    SINGLE_PORTFOLIO: '/portfolio/:id'
+    SINGLE_PORTFOLIO: '/portfolio/:id',
+    QUALITY_STANDART: '/service/quality-standart'
 }
 
 export default ROUTES
