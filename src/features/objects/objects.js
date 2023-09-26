@@ -103,7 +103,7 @@ const allProducts = [
         salePrice: "12.00",
         category: 'Nuts',
         photo: WhiteHazelnutImg,
-        id: 12,
+        id: 16,
         raiting: 3
     },
     {

@@ -2,6 +2,7 @@ import styles from "../../styles/QualityStandart.module.css";
 
 import DefaultHero from "../DefaultHero/DefaultHero";
 import Subscribe from "../Subscribe/Subscribe";
+import ScrollToTopOnMount from "../Routes/ScrollToTopOnMount";
 
 import QualityStandartBg from "../../img/bg/qualityStandartBg.png";
 import QualityImg1 from "../../img/bg/qualityImg1.png";
@@ -11,6 +12,7 @@ import QualityImg3 from "../../img/bg/qualityImg3.jpg";
 const QulityStandart = () => {
   return (
     <>
+    <ScrollToTopOnMount/>
       <DefaultHero title={"Quality Standard"} mainBg={QualityStandartBg} />
       <section className={styles.quality_standart_section}>
         <img src={QualityImg1} alt="" className={styles.hero_img} />

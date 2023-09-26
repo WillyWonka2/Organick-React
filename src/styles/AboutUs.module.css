@@ -1,5 +1,5 @@
 .about_container {
-  padding: 209px 0 143px;
+  padding: 10.774% 0 7.3719%;
   display: flex;
   justify-content: center;
   gap: 40px;
@@ -65,7 +65,7 @@
 }
 
 .why_choose {
-  padding: 190px 20px 190px 20px;
+  padding: 9.794% 20px 9.794% 20px;
   background-color: #f9f8f8;
 }
 
@@ -173,7 +173,7 @@
 .team {
   max-width: 1400px;
   margin: auto;
-  padding: 170px 0 200px;
+  padding: 8.763% 0 10.31%;
 }
 
 .head {
@@ -192,6 +192,8 @@
 .team_carts {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
+  row-gap: 40px;
 }
 
 .cart {
@@ -199,6 +201,10 @@
   overflow: hidden;
   background-color: #f9f8f8;
   transition: .5s;
+}
+
+.cart img{
+  max-width: 450px;
 }
 
 .cart:hover {
@@ -227,7 +233,7 @@
 }
 
 .offers{
-    padding: 188px 20px;
+    padding: 9.691% 20px;
     background-color: #274c5b;
 }
 

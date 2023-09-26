@@ -1,5 +1,6 @@
 import DefaultHero from "../DefaultHero/DefaultHero";
 import Button from "../UI/Button/Button";
+import ScrollToTopOnMount from "../Routes/ScrollToTopOnMount";
 import { Link } from "react-router-dom";
 
 import ServiceBgImg from "../../img/bg/serviceBg.png";
@@ -15,8 +16,10 @@ import NutsImg from "../../img/bg/nuts.png";
 import styles from "../../styles/ServiceComponent.module.css";
 
 const ServiceComponent = () => {
+
   return (
     <>
+    <ScrollToTopOnMount/>
       <DefaultHero title={"Services"} mainBg={ServiceBgImg} />
       <section className={styles.what_we_grow}>
         <p className={`subtitle ${styles.subtitle}`}>What we Grow</p>

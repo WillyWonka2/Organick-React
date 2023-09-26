@@ -1,9 +1,9 @@
 .news{
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 36px;
-    padding: 154px 260px;
+    justify-content: space-between;
+    padding: 7.94% 20px;
+    max-width: 1440px;
+    margin: auto;
 }
 
 .new_block{

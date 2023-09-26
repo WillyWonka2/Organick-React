@@ -2,7 +2,7 @@
 .testimonial{
     position: relative;
     text-align: center;
-    padding: 164px 406px;
+    padding: 8.458% 20.93%;
     background-color: #FCFCFC;
 }
 
@@ -11,11 +11,12 @@
     position: absolute;
     left: 0;
     top: 0;
-    width: 406px;
+    width: 20.93%;
     height: 100%;
     background-image: url(../img/bg/CustomerBg.png);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: right;
 }
 
 .testimonial::before{
@@ -23,12 +24,13 @@
     position: absolute;
     right: 0;
     top: 0;
-    width: 406px;
+    width: 20.93%;
     height: 100%;
     background-image: url(../img/bg/CustomerBg.png);
     background-repeat: no-repeat;
     background-size: cover;
     transform: rotate(180deg);
+    background-position: right;
 }
 
 .testimonial h2{
@@ -111,8 +113,10 @@
 }
 
 .about_products_block{
+    max-width: 1040px;
+    margin: auto;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .counter{

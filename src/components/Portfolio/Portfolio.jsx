@@ -10,7 +10,7 @@ import { Link } from "react-router-dom";
 
 const Portfolio = () => {
   const { portfolios } = useSelector(({ portfolios }) => portfolios);
-  console.log(portfolios);
+
   return (
     <>
       <DefaultHero title={"Portfolio Standard"} mainBg={portfolioBgImg} />

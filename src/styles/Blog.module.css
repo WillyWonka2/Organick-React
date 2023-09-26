@@ -1,5 +1,7 @@
 .blog {
-  padding: 177px 260px 0 260px;
+  max-width: 1440px;
+  padding: 9.129% 20px;
+  margin: auto;
 }
 
 .head {

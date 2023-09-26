@@ -12,6 +12,7 @@ import Portfolio from "../Portfolio/Portfolio";
 import PortfolioSingle from "../Portfolio/PortfolioSingle";
 import ServiceComponent from "../ServiceComponent/ServiceComponent";
 import QulityStandart from "../QualityStandart/QulityStandart";
+import OurTeams from "../OurTeams/OurTeams";
 
 
 const AppRoutes = () => {
@@ -27,6 +28,7 @@ const AppRoutes = () => {
       <Route path={ROUTES.SINGLE_PORTFOLIO} element={<PortfolioSingle/>} />
       <Route path={ROUTES.SERVICE} element={<ServiceComponent/>} />
       <Route path={ROUTES.QUALITY_STANDART} element={<QulityStandart/>}/>
+      <Route path={ROUTES.OUR_TEAMS} element={<OurTeams/>}/>
       <Route path="*" element={<NotFound />} />
       {/* <Route path={ROUTES.FAVORITES} element={<Favourites />} />  */}
     </Routes>

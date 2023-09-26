@@ -1,4 +1,4 @@
-import { useParams } from "react-router-dom";
+import { useParams, useNavigate } from "react-router-dom";
 import Subscribe from "../Subscribe/Subscribe";
 import DefaultHero from "../DefaultHero/DefaultHero";
 import BgHero from "../../img/bg/bg-default-hero.jpg";
@@ -15,6 +15,7 @@ const ShopSingle = () => {
   const params = useParams();
   const scrollElementRef = useRef();
   const dispatch = useDispatch();
+  const navigate = useNavigate()
 
   useEffect(() => {
     dispatch(takeSingleProduct(params.id));
@@ -23,6 +24,12 @@ const ShopSingle = () => {
 
   const { singleProd } = useSelector(({ products }) => products);
   const { list } = useSelector(({ products }) => products);
+
+  if(!singleProd){
+    navigate('/404')
+    return
+  }
+
   const related = list.filter(
     (item) => item.category === singleProd.category && item.id !== singleProd.id
   );

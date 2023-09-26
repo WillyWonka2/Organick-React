@@ -1,5 +1,5 @@
 .hero {
-  padding: 247px 260px;
+  padding: 12.686% 13.5%;
   position: relative;
   background-position: center;
   background-size: cover;
@@ -23,6 +23,8 @@
 }
 
 .default_hero{
+  max-width: 1940px;
+  margin: auto;
   text-align: center;
   background-repeat: no-repeat;
   background-size: cover;

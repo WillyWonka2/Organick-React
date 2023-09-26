@@ -2,7 +2,10 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 69px 162px;
+  padding: 3.56% 20px;
+  max-width: 1640px;
+  margin: auto;
+  gap: 20px;
 }
 
 .list {
@@ -122,6 +125,19 @@
   }
 }
 
-.active::before{
+.active::before {
   width: 100%;
+}
+
+.b_flex_first {
+  display: flex;
+  align-items: center;
+  max-width: 912px;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.b_flex_second {
+  display: flex;
+  gap: 18px;
 }

@@ -1,22 +1,26 @@
 import Subscribe from "../Subscribe/Subscribe";
-import NotFound from "../NotFound/NotFound";
 
 import styles from "../../styles/Portfolio.module.css";
 
 import carrotImg from "../../img/bg/portfolioCarrot.png";
 
-import { useParams } from "react-router-dom";
+import { useParams, useNavigate } from "react-router-dom";
 import { useSelector } from "react-redux";
 import ScrollToTopOnMount from "../Routes/ScrollToTopOnMount";
+import NotFound from "../NotFound/NotFound";
 
 const PortfolioSingle = () => {
   const params = useParams();
   const { portfolios } = useSelector(({ portfolios }) => portfolios);
   const portfolio = portfolios.filter(({ id }) => id === +params.id)[0];
+  const navigate = useNavigate()
 
   if (!portfolio) {
-    return <NotFound />;
+    console.log('first')
+    navigate('/404')
+    return <NotFound/>
   }
+
   return (
     <>
     <ScrollToTopOnMount/>

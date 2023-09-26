@@ -1,9 +1,10 @@
 .error_page{
-    padding: 214px 0;
+    padding: 11.032%;
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: 30%;
     padding-right: 10%;
-    margin-bottom: 130px;
+    margin-bottom: 6.71%;
 }
 
 .error_page > div{

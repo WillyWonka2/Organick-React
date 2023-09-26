@@ -10,21 +10,15 @@ import PolicyImg from "../../img/bg/ReturnPurchase.png";
 import FreshImg from "../../img/bg/NaturalFood.png";
 import PhoneImg from "../../img/bg/PhoneTime.png";
 import CardImg from "../../img/bg/CardSecurity.png";
-import Team1Img from "../../img/bg/team1.jpg";
-import Team2Img from "../../img/bg/team2.jpg";
-import Team3Img from "../../img/bg/team3.jpg";
 import Offer1Img from "../../img/bg/offer1.jpg";
 import Offer2Img from "../../img/bg/offer2.jpg";
 import Offer3Img from "../../img/bg/offer3.jpg";
 import Offer4Img from "../../img/bg/offer4.jpg";
 
-import { FbIcon } from "../../icons";
-import { TwitIcon } from "../../icons";
-import { InstIcon } from "../../icons";
-
 import styles from "../../styles/AboutUs.module.css";
 import Button from "../UI/Button/Button";
 import { Link } from "react-router-dom";
+import OurTeam from "../OurTeam/OurTeam";
 
 const AboutUs = () => {
   return (
@@ -147,7 +141,7 @@ const AboutUs = () => {
             1500s, when an unknown printer took a galley.
           </p>
         </div>
-        <div className={styles.team_carts}>
+        {/* <div className={styles.team_carts}>
           <div className={styles.cart}>
             <div className={styles.cart_photo}>
               <img src={Team1Img} alt="" />
@@ -214,7 +208,8 @@ const AboutUs = () => {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
+        <OurTeam count={3}/>
       </section>
       <section className={styles.offers}>
         <p className="subtitle">About Us</p>

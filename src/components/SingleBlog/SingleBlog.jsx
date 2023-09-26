@@ -1,6 +1,6 @@
 import Subscribe from "../Subscribe/Subscribe";
 
-import { useParams } from "react-router-dom";
+import { useParams, useNavigate } from "react-router-dom";
 import { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 
@@ -12,6 +12,7 @@ import { UserIcon } from "../../icons";
 const SingleBlog = () => {
   const params = useParams();
   const dispatch = useDispatch();
+  const navigate = useNavigate()
 
   useEffect(() => {
     dispatch(getSingleProduct(params.id));
@@ -19,6 +20,12 @@ const SingleBlog = () => {
   }, [dispatch, params.id]);
 
   const { singleNew } = useSelector(({ news }) => news);
+  
+  if(!singleNew){
+    navigate('/404')
+    return
+  }
+
   return (
     <>
       <section
