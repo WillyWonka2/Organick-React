@@ -8,7 +8,7 @@ import New6Img from '../../img/bg/new6.png'
 const weeklyNews = [
     {
         id: 1,
-        date: '25 Nov',
+        date: '8 Jun',
         author: 'Rachi Card',
         title: 'The Benefits of Vitamin D & How to Get It',
         subtitle: 'Simply dummy text of the printing and typesetting industry. Lorem Ipsum',
@@ -17,7 +17,7 @@ const weeklyNews = [
     },
     {
         id: 2,
-        date: '25 Nov',
+        date: '16 Jun',
         author: 'Rachi Card',
         title: 'Our Favourite Summertime Tommeto',
         subtitle: 'Simply dummy text of the printing and typesetting industry. Lorem Ipsum',
@@ -26,7 +26,7 @@ const weeklyNews = [
     },
     {
         id: 3,
-        date: '25 Nov',
+        date: '4 Feb',
         author: 'Rachi Card',
         title: 'Benefits of Vitamin C & How to Get It',
         subtitle: 'Simply dummy text of the printing and typesetting industry. Lorem Ipsum',
@@ -35,7 +35,7 @@ const weeklyNews = [
     },
     {
         id: 4,
-        date: '25 Nov',
+        date: '27 Dec',
         author: 'Rachi Card',
         title: 'Research More Organic Foods',
         subtitle: 'Simply dummy text of the printing and typesetting industry. Lorem Ipsum',
@@ -44,7 +44,7 @@ const weeklyNews = [
     },
     {
         id: 5,
-        date: '25 Nov',
+        date: '1 Jan',
         author: 'Rachi Card',
         title: 'Everyday Fresh Fruites',
         subtitle: 'Simply dummy text of the printing and typesetting industry. Lorem Ipsum',
@@ -53,7 +53,7 @@ const weeklyNews = [
     },
     {
         id: 6,
-        date: '25 Nov',
+        date: '8 Jan',
         author: 'Rachi Card',
         title: 'Don’t Use Plastic Product! it’s Kill Nature',
         subtitle: 'Simply dummy text of the printing and typesetting industry. Lorem Ipsum',

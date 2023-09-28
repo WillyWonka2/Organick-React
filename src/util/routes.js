@@ -9,7 +9,8 @@ export const ROUTES = {
     PORTFOLIO: '/portfolio',
     SINGLE_PORTFOLIO: '/portfolio/:id',
     QUALITY_STANDART: '/service/quality-standart',
-    OUR_TEAMS: '/our-teams'
+    OUR_TEAMS: '/our-teams',
+    CONTACT_US: '/contact-us'
 }
 
 export default ROUTES

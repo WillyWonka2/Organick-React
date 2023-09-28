@@ -125,7 +125,7 @@ const allProducts = [
         raiting: 5
     },
     {
-        title: 'Mung Bean',
+        title: 'Сauliflower',
         fullPrice: "20.00",
         salePrice: "11.00",
         category: 'Vegetable',
@@ -134,7 +134,7 @@ const allProducts = [
         raiting: 5
     },
     {
-        title: 'Organic Almonds',
+        title: 'Zucchini',
         fullPrice: "20.00",
         salePrice: "12.00",
         category: 'Vegetable',
@@ -143,7 +143,7 @@ const allProducts = [
         raiting: 2
     },
     {
-        title: 'Organic Almonds',
+        title: 'Onion',
         fullPrice: "20.00",
         salePrice: "17.00",
         category: 'Vegetable',
@@ -152,9 +152,9 @@ const allProducts = [
         raiting: 5
     },
     {
-        title: 'Organic Almonds',
+        title: 'Cabbage',
         fullPrice: "20.00",
-        salePrice: "17.00",
+        salePrice: "9.00",
         category: 'Vegetable',
         photo: CabbageImg,
         id: 14,

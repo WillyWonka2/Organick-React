@@ -28,6 +28,7 @@
   text-align: center;
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
 }
 
 .default_hero h1{

@@ -1,7 +1,10 @@
 import { Link } from "react-router-dom";
 
-import { FbIcon, InstIcon, LogoIcon, PintIcon, TwitIcon } from "../../icons";
+import { LogoIcon} from "../../icons";
 import styles from "../../styles/Footer.module.css";
+
+import ROUTES from '../../util/routes'
+import Socials from "./Socials";
 
 const Footer = () => {
   return (
@@ -29,27 +32,14 @@ const Footer = () => {
             Simply dummy text of the printing and typesetting industry. Lorem
             Ipsum simply dummy text of the printing
           </p>
-          <div className={styles.socials_icons}>
-            <a href="#!">
-              <InstIcon />
-            </a>
-            <a href="#!">
-              <FbIcon />
-            </a>
-            <a href="#!">
-              <TwitIcon />
-            </a>
-            <a href="#!">
-              <PintIcon />
-            </a>
-          </div>
+          <Socials/>
         </div>
         <div className={styles.utility}>
           <h5>Utility Pages</h5>
           <ul>
             <li>
-              <Link>
-                <p>Style Guide</p>
+              <Link to={ROUTES.CONTACT_US}>
+                <p>Contact Us</p>
               </Link>
             </li>
             <li>
@@ -58,17 +48,17 @@ const Footer = () => {
               </Link>
             </li>
             <li>
-              <Link>
+              <Link className="not-active-link">
                 <p>Password Protected</p>
               </Link>
             </li>
             <li>
-              <Link>
+              <Link className="not-active-link">
                 <p>Licences</p>
               </Link>
             </li>
             <li>
-              <Link>
+              <Link className="not-active-link">
                 <p>Changelog</p>
               </Link>
             </li>

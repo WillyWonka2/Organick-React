@@ -5,6 +5,10 @@
   gap: 40px;
 }
 
+.about_container img{
+  width: 100%;
+}
+
 .info {
   margin: 49px 0 58px;
   display: flex;

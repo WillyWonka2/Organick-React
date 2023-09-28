@@ -49,7 +49,7 @@ const AboutUs = () => {
                 <img src={TrackImg} alt="" />
               </div>
               <div className={styles.info_content}>
-                <p>Modern Agriculture Equipment</p>
+                <p>Modern Agriculture<br/> Equipment</p>
               </div>
             </div>
             <div className={styles.info_block}>
@@ -57,7 +57,7 @@ const AboutUs = () => {
                 <img src={ChemicalImg} alt="" />
               </div>
               <div className={styles.info_content}>
-                <p>No growth hormones are used</p>
+                <p>No growth<br/> hormones are used</p>
               </div>
             </div>
           </div>

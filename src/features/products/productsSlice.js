@@ -11,6 +11,7 @@ const productsSlice = createSlice({
         news: allNews,
         isLoading: false,
         singleProd: {},
+        findingProducts: []
     },
     reducers: {
         filterByPrice: (state, { payload }) => {
@@ -19,11 +20,16 @@ const productsSlice = createSlice({
         takeSingleProduct: (state, { payload }) => {
             let product = state.list.filter((prod) => prod.id === +payload)
             state.singleProd = product[0]
+        },
+        findProducts: (state, { payload }) => {
+            state.findingProducts = state.list.filter((prod) =>
+                prod.title.toLowerCase().includes(payload)
+            )
         }
 
 
     }
 })
 
-export const { filterByPrice, takeSingleProduct } = productsSlice.actions;
+export const { filterByPrice, takeSingleProduct, findProducts } = productsSlice.actions;
 export default productsSlice.reducer;

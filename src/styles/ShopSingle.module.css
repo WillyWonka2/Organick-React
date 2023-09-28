@@ -111,6 +111,10 @@
   margin-bottom: 27px;
 }
 
+.info_buttons button{
+  cursor: not-allowed;
+}
+
 .info_buttons button:first-child {
   padding: 23px 57px;
   border-radius: 16px;

@@ -1,5 +1,5 @@
 .subs{
-    margin: 140px auto 117px;
+    margin: 7.2165% auto 6.031%;
     padding: 105px 71px;
     max-width: 1400px;
     border-radius: 30px;
@@ -24,7 +24,12 @@ form input{
     padding-left: 23px;
     font-style: italic;
     font-weight: 400;
+    color: var(--title-color);
+}
+
+form input::placeholder{
     color: #ABABAB;
+
 }
 
 .content h2{

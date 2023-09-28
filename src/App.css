@@ -85,3 +85,8 @@ a {
   max-width: 1440px;
   margin: auto;
 }
+
+.not-active-link{
+  text-decoration: line-through;
+cursor:not-allowed;
+}

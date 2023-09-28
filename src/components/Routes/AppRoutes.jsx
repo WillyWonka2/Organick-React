@@ -13,6 +13,7 @@ import PortfolioSingle from "../Portfolio/PortfolioSingle";
 import ServiceComponent from "../ServiceComponent/ServiceComponent";
 import QulityStandart from "../QualityStandart/QulityStandart";
 import OurTeams from "../OurTeams/OurTeams";
+import ContactUs from "../ContactUs/ContactUs";
 
 
 const AppRoutes = () => {
@@ -29,6 +30,7 @@ const AppRoutes = () => {
       <Route path={ROUTES.SERVICE} element={<ServiceComponent/>} />
       <Route path={ROUTES.QUALITY_STANDART} element={<QulityStandart/>}/>
       <Route path={ROUTES.OUR_TEAMS} element={<OurTeams/>}/>
+      <Route path={ROUTES.CONTACT_US} element={<ContactUs/>} />
       <Route path="*" element={<NotFound />} />
       {/* <Route path={ROUTES.FAVORITES} element={<Favourites />} />  */}
     </Routes>

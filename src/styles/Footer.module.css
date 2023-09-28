@@ -23,8 +23,9 @@
 
 .socials_icons {
   display: flex;
-  justify-content: center;
-  gap: 15px;
+  max-width: 285px;
+  margin: auto;
+  justify-content: space-between;
 }
 .socials_icons a {
   display: flex;
