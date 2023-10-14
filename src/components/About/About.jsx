@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 
 import Button from "../UI/Button/Button";
 import AbouImg from "../../img/bg/aboutIMG.png";
+import AbouImgWebp from "../../img/webp/aboutIMG.webp";
 import OrganicImg from "../../img/bg/organic.png";
 import QualityImg from "../../img/bg/quality.png";
 
@@ -11,7 +12,10 @@ const About = () => {
   return (
     <section className={styles.about}>
       <div className={styles.about_img}>
-        <img src={AbouImg} alt="About" />
+        <picture>
+          <source srcset={AbouImgWebp} />
+          <img src={AbouImg} alt="About" />
+        </picture>
       </div>
       <div className={styles.about_content}>
         <p className="subtitle">About Us</p>
@@ -21,7 +25,7 @@ const About = () => {
           ceased to been the industry's standard dummy text ever since the
           1500s, when an unknown printer took a galley.
         </p>
-        <div className = {styles.info_container}>
+        <div className={styles.info_container}>
           <div className={styles.info}>
             <div className={styles.info_img}>
               <img src={OrganicImg} alt="Organic Foods" />
@@ -49,9 +53,8 @@ const About = () => {
             </div>
           </div>
         </div>
-        <Link to={'/shop'}>
-        <Button title="Shop Now" />
-
+        <Link to={"/shop"}>
+          <Button title="Shop Now" />
         </Link>
       </div>
     </section>

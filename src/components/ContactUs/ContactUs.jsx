@@ -2,6 +2,7 @@ import DefaultHero from "../DefaultHero/DefaultHero";
 
 import ContactUsBgImg from "../../img/bg/contactUsBgImg.jpg";
 import BananaImg from "../../img/bg/contactUsBanan.jpg";
+import BananaImgWebp from "../../img/webp/contactUsBanan.webp";
 import LeafImg from "../../img/bg/contactUsLeaf.jpg";
 import LocationImg from "../../img/bg/loc_img.png";
 
@@ -20,7 +21,10 @@ const ContactUs = () => {
       <section className={styles.contact_us_container}>
         <div className={styles.contact_us_block}>
           <div className={styles.contact_us_img}>
-            <img src={BananaImg} alt="Banana" />
+            <picture>
+              <source srcset={BananaImgWebp} />
+              <img src={BananaImg} alt="Banana" />
+            </picture>
           </div>
           <div className={styles.contact_us_content}>
             <h2>We'd love to talk about how we can work together.</h2>

@@ -15,6 +15,23 @@ import Hazelnut2Img from "../../img/products/brownHazelnut.png"
 import OnionImg from "../../img/products/onion.png"
 import CabbageImg from "../../img/products/cabbage.png"
 
+import CalabreseImgWebp from "../../img/products/webp/Calabrese.webp"
+import BananaImgWebp from "../../img/products/webp/Banana.webp"
+import NutsImgWebp from "../../img/products/webp/Nuts.webp"
+import TomatoImgWebp from "../../img/products/webp/Tomato.webp"
+import MungImgWebp from "../../img/products/webp/Mung.webp"
+import HazelnutImgWebp from "../../img/products/webp/Hazelnut.webp"
+import EggsImgWebp from "../../img/products/webp/Eggs.webp"
+import ZelcoImgWebp from "../../img/products/webp/Zelco.webp"
+import BeanImgWebp from "../../img/products/webp/Bean.webp"
+import WhiteHazelnutImgWebp from "../../img/products/webp/WhiteHazelnut.webp"
+import FreshImgWebp from "../../img/products/webp/FreshCorn.webp"
+import AlmondsImgWebp from "../../img/products/webp/Almonds.webp"
+import Mung2ImgWebp from "../../img/products/webp/mung2.webp"
+import Hazelnut2ImgWebp from "../../img/products/webp/brownHazelnut.webp"
+import OnionImgWebp from "../../img/products/webp/onion.webp"
+import CabbageImgWebp from "../../img/products/webp/cabbage.webp"
+
 const allProducts = [
     {
         title: 'Calabrese Broccoli',
@@ -22,6 +39,7 @@ const allProducts = [
         salePrice: "13.00",
         category: 'Vegetable',
         photo: CalabreseImg,
+        photoWebp: CalabreseImgWebp,
         id: 1,
         raiting: 3
     },
@@ -31,6 +49,8 @@ const allProducts = [
         salePrice: "14.00",
         category: 'Fresh',
         photo: BananaImg,
+        photoWebp: BananaImgWebp,
+
         id: 2,
         raiting: 5
     },
@@ -40,6 +60,7 @@ const allProducts = [
         salePrice: "15.00",
         category: 'Millets',
         photo: NutsImg,
+        photoWebp: NutsImgWebp,
         id: 4,
         raiting: 4
     },
@@ -49,6 +70,8 @@ const allProducts = [
         salePrice: "17.00",
         category: 'Vegetable',
         photo: TomatoImg,
+        photoWebp: TomatoImgWebp,
+
         id: 5,
         raiting: 4
     },
@@ -58,6 +81,8 @@ const allProducts = [
         salePrice: "11.00",
         category: 'Health',
         photo: MungImg,
+        photoWebp: MungImgWebp,
+
         id: 6,
         raiting: 5
     },
@@ -67,6 +92,8 @@ const allProducts = [
         salePrice: "12.00",
         category: 'Nuts',
         photo: HazelnutImg,
+        photoWebp: HazelnutImgWebp,
+
         id: 7,
         raiting: 2
     },
@@ -76,6 +103,8 @@ const allProducts = [
         salePrice: "17.00",
         category: 'Fresh',
         photo: EggsImg,
+        photoWebp: EggsImgWebp,
+
         id: 8,
         raiting: 5
     },
@@ -85,6 +114,8 @@ const allProducts = [
         salePrice: "15.00",
         category: 'Fresh',
         photo: ZelcoImg,
+        photoWebp: ZelcoImgWebp,
+
         id: 9,
         raiting: 2
     },
@@ -94,6 +125,7 @@ const allProducts = [
         salePrice: "11.00",
         category: 'Health',
         photo: BeanImg,
+        photoWebp: BeanImgWebp,
         id: 11,
         raiting: 5
     },
@@ -103,6 +135,8 @@ const allProducts = [
         salePrice: "12.00",
         category: 'Nuts',
         photo: WhiteHazelnutImg,
+        photoWebp: WhiteHazelnutImgWebp,
+
         id: 16,
         raiting: 3
     },
@@ -112,6 +146,8 @@ const allProducts = [
         salePrice: "17.00",
         category: 'Fresh',
         photo: FreshImg,
+        photoWebp: FreshImgWebp,
+
         id: 3,
         raiting: 4
     },
@@ -121,6 +157,7 @@ const allProducts = [
         salePrice: "15.00",
         category: 'Fresh',
         photo: AlmondsImg,
+        photoWebp: AlmondsImgWebp,
         id: 10,
         raiting: 5
     },
@@ -130,6 +167,8 @@ const allProducts = [
         salePrice: "11.00",
         category: 'Vegetable',
         photo: Mung2Img,
+        photoWebp: Mung2ImgWebp,
+
         id: 15,
         raiting: 5
     },
@@ -139,6 +178,8 @@ const allProducts = [
         salePrice: "12.00",
         category: 'Vegetable',
         photo: Hazelnut2Img,
+        photoWebp: Hazelnut2ImgWebp,
+
         id: 12,
         raiting: 2
     },
@@ -148,6 +189,8 @@ const allProducts = [
         salePrice: "17.00",
         category: 'Vegetable',
         photo: OnionImg,
+        photoWebp: OnionImgWebp,
+
         id: 13,
         raiting: 5
     },
@@ -157,6 +200,8 @@ const allProducts = [
         salePrice: "9.00",
         category: 'Vegetable',
         photo: CabbageImg,
+        photoWebp: CabbageImgWebp,
+
         id: 14,
         raiting: 4
     },

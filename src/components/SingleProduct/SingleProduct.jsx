@@ -8,36 +8,39 @@ const SingleProduct = ({
   salePrice,
   category,
   photo,
+  photoWebp,
   raiting,
-  id
+  id,
 }) => {
   const raitingArr = new Array(raiting).fill(null);
 
   return (
-      <div className={styles.product_block}>
-        <div>
-          <p className={styles.category}>{category}</p>
-        </div>
-        <div className={styles.prod_img}>
+    <div className={styles.product_block}>
+      <div>
+        <p className={styles.category}>{category}</p>
+      </div>
+      <div className={styles.prod_img}>
+        <picture>
+          <source srcset={photoWebp} />
           <img src={photo} alt={title} />
-        </div>
-        <div>
-          <h6>{title}</h6>
-          <div className={styles.prices_block}>
-            <div className={styles.prices}>
-              <p className={styles.old_price}>${fullPrice}</p>
-              <p className={styles.new_price}>${salePrice}</p>
-            </div>
-            <div className={styles.raiting}>
-              {raitingArr.map((_, i) => (
-                <StarIcon key={i} />
-              ))}
-            </div>
+        </picture>
+      </div>
+      <div>
+        <h6>{title}</h6>
+        <div className={styles.prices_block}>
+          <div className={styles.prices}>
+            <p className={styles.old_price}>${fullPrice}</p>
+            <p className={styles.new_price}>${salePrice}</p>
+          </div>
+          <div className={styles.raiting}>
+            {raitingArr.map((_, i) => (
+              <StarIcon key={i} />
+            ))}
           </div>
         </div>
-    <Link to={`/shop/${id}`} className = {styles.link}>
-</Link>
       </div>
+      <Link to={`/shop/${id}`} className={styles.link}></Link>
+    </div>
   );
 };
 
