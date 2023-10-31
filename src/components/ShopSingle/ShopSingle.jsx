@@ -15,25 +15,26 @@ const ShopSingle = () => {
   const params = useParams();
   const scrollElementRef = useRef();
   const dispatch = useDispatch();
-  const navigate = useNavigate()
+  const navigate = useNavigate();
 
   useEffect(() => {
     dispatch(takeSingleProduct(params.id));
-    scrollElementRef.current.scrollIntoView({ behavior: 'smooth' });
+    scrollElementRef.current.scrollIntoView({ behavior: "smooth" });
   }, [params.id, dispatch]);
 
   const { singleProd } = useSelector(({ products }) => products);
   const { list } = useSelector(({ products }) => products);
 
-  if(!singleProd){
-    navigate('/404')
-    return
+  if (!singleProd) {
+    navigate("/404");
+    return;
   }
 
   const related = list.filter(
     (item) => item.category === singleProd.category && item.id !== singleProd.id
   );
-  const { title, fullPrice, salePrice, category, photo, raiting } = singleProd;
+  const { title, fullPrice, salePrice, category, photo, raiting, photoWebp } =
+    singleProd;
   const raitingArr = new Array(raiting).fill(null);
 
   return (
@@ -42,7 +43,10 @@ const ShopSingle = () => {
       <DefaultHero title={"Shop Single"} mainBg={BgHero} />
       <section className={styles.products_details} ref={scrollElementRef}>
         <div className={styles.img}>
-          <img src={photo} alt={title} />
+          <picture>
+            <source srcSet={photoWebp} type="image/webp"/>
+            <img src={photo} alt={title} />
+          </picture>
           <div className={styles.category}>
             <p>{category}</p>
           </div>
@@ -88,9 +92,13 @@ const ShopSingle = () => {
         </div>
       </section>
       {related.length < 1 ? (
-        <h2 style={{ marginBottom: "0px", textAlign: 'center' }}>No Related Products</h2>
+        <h2 style={{ marginBottom: "0px", textAlign: "center" }}>
+          No Related Products
+        </h2>
       ) : (
-        <h2 style={{ marginBottom: "40px", textAlign: 'center' }}>Related Products</h2>
+        <h2 style={{ marginBottom: "40px", textAlign: "center" }}>
+          Related Products
+        </h2>
       )}
       {related.length && <ProductsList amount={4} list={related} />}
 

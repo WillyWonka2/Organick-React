@@ -21,7 +21,7 @@ const SingleProduct = ({
       </div>
       <div className={styles.prod_img}>
         <picture>
-          <source srcset={photoWebp} />
+          <source srcSet={photoWebp} />
           <img src={photo} alt={title} />
         </picture>
       </div>

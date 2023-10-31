@@ -15,7 +15,7 @@ const QulityStandart = () => {
     <ScrollToTopOnMount/>
       <DefaultHero title={"Quality Standard"} mainBg={QualityStandartBg} />
       <section className={styles.quality_standart_section}>
-        <img src={QualityImg1} alt="" className={styles.hero_img} />
+        <img src={QualityImg1} alt="Quality" className={styles.hero_img} />
         <div className={styles.container}>
           <h2>Organic Store Services</h2>
           <p className={styles.first_p}>
@@ -33,7 +33,7 @@ const QulityStandart = () => {
           <div className={styles.organic_blocks}>
             <div className={styles.organic_block}>
               <div className={styles.block_img}>
-                <img src={QualityImg2} alt="" />
+                <img src={QualityImg2} alt="Quality" />
               </div>
               <div className={styles.block_content}>
                 <div className={styles.content}>
@@ -48,7 +48,7 @@ const QulityStandart = () => {
             </div>
             <div className={styles.organic_block}>
               <div className={styles.block_img}>
-                <img src={QualityImg3} alt="" />
+                <img src={QualityImg3} alt="Quality" />
               </div>
               <div className={styles.block_content}>
                 <div className={styles.content}>

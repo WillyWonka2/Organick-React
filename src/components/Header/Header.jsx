@@ -141,7 +141,7 @@ const Header = () => {
                       <Link to={`/shop/${item.id}`}>
                         <div className={styles.prod_block}>
                           <div className={styles.offer_img}>
-                            <img src={item.photo} alt="" />
+                            <img src={item.photo} alt={item.title} />
                           </div>
                           <div>
                             <h6>{item.title}</h6>

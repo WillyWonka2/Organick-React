@@ -7,10 +7,8 @@ const Counter = ({ targetNumber, content="" }) => {
 
   const updateCounter = () => {
     if (count < targetNumber && targetNumber < 101) {
-      console.log(targetNumber)
       setCount(prevCount => prevCount + 1);
     } else{
-      console.log(targetNumber)
       setCount(prevCount => prevCount + 5);
     }
     // while(count < targetNumber){

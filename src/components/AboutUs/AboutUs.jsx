@@ -9,7 +9,7 @@ import VegetablesImg from "../../img/bg/vegetables.jpg";
 import PolicyImg from "../../img/bg/ReturnPurchase.png";
 import FreshImg from "../../img/bg/NaturalFood.png";
 import PhoneImg from "../../img/bg/PhoneTime.png";
-import CardImg from "../../img/bg/CardSecurity.png";
+import CartImg from "../../img/bg/CardSecurity.png";
 import Offer1Img from "../../img/bg/offer1.jpg";
 import Offer2Img from "../../img/bg/offer2.jpg";
 import Offer3Img from "../../img/bg/offer3.jpg";
@@ -26,7 +26,7 @@ const AboutUs = () => {
       <DefaultHero title={"About Us"} mainBg={AboutHeroImg} />
       <section className={styles.about_container}>
         <div className={styles.about_img}>
-          <img src={SaladImg} alt="" />
+          <img src={SaladImg} alt="Salad" />
         </div>
         <div className={styles.about_content}>
           <p className="subtitle">About Us</p>
@@ -46,7 +46,7 @@ const AboutUs = () => {
           <div className={styles.info}>
             <div className={styles.info_block}>
               <div className={styles.info_img}>
-                <img src={TrackImg} alt="" />
+                <img src={TrackImg} alt="Track" />
               </div>
               <div className={styles.info_content}>
                 <p>Modern Agriculture<br/> Equipment</p>
@@ -54,7 +54,7 @@ const AboutUs = () => {
             </div>
             <div className={styles.info_block}>
               <div className={`${styles.info_img} ${styles.second_img}`}>
-                <img src={ChemicalImg} alt="" />
+                <img src={ChemicalImg} alt="Chemical" />
               </div>
               <div className={styles.info_content}>
                 <p>No growth<br/> hormones are used</p>
@@ -97,34 +97,34 @@ const AboutUs = () => {
             </p>
           </div>
           <div className={styles.top_img}>
-            <img src={VegetablesImg} alt="" />
+            <img src={VegetablesImg} alt="Vegetables" />
           </div>
         </div>
         <div className={styles.why_bot}>
           <div className={styles.bot_item}>
             <div className={styles.item_img}>
-              <img src={PolicyImg} alt="" />
+              <img src={PolicyImg} alt="PolicyImg" />
             </div>
             <h6>Return Policy</h6>
             <p>Simply dummy text of the printintypesetting industry.</p>
           </div>
           <div className={styles.bot_item}>
             <div className={styles.item_img}>
-              <img src={FreshImg} alt="" />
+              <img src={FreshImg} alt="FreshImg" />
             </div>
             <h6>100% Fresh</h6>
             <p>Simply dummy text of the printintypesetting industry.</p>
           </div>
           <div className={styles.bot_item}>
             <div className={styles.item_img}>
-              <img src={PhoneImg} alt="" />
+              <img src={PhoneImg} alt="Phone" />
             </div>
             <h6>Support 24/7</h6>
             <p>Simply dummy text of the printintypesetting industry.</p>
           </div>
           <div className={styles.bot_item}>
             <div className={styles.item_img}>
-              <img src={CardImg} alt="" />
+              <img src={CartImg} alt="Cart" />
             </div>
             <h6>Secured Payment</h6>
             <p>Simply dummy text of the printintypesetting industry.</p>
@@ -141,74 +141,7 @@ const AboutUs = () => {
             1500s, when an unknown printer took a galley.
           </p>
         </div>
-        {/* <div className={styles.team_carts}>
-          <div className={styles.cart}>
-            <div className={styles.cart_photo}>
-              <img src={Team1Img} alt="" />
-            </div>
-            <div className={styles.cart_content}>
-              <h6>Giovani Bacardo</h6>
-              <div className={styles.cart_info}>
-                <div className={styles.role}>
-                  <p className="subtitle">Farmer</p>
-                </div>
-                <div className={styles.socialcs}>
-                  <a href="https://facebook.com">
-                    <FbIcon />
-                  </a>
-                  <a href="https://twitter.com/">
-                    <TwitIcon />
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className={styles.cart}>
-            <div className={styles.cart_photo}>
-              <img src={Team2Img} alt="" />
-            </div>
-            <div className={styles.cart_content}>
-              <h6>Marianne Loreno</h6>
-              <div className={styles.cart_info}>
-                <div className={styles.role}>
-                  <p className="subtitle">Designer</p>
-                </div>
-                <div className={styles.socialcs}>
-                  <a href="https://facebook.com">
-                    <InstIcon />
-                  </a>
-                  <a href="https://facebook.com">
-                    <FbIcon />
-                  </a>
-                  <a href="https://twitter.com/">
-                    <TwitIcon />
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className={styles.cart}>
-            <div className={styles.cart_photo}>
-              <img src={Team3Img} alt="" />
-            </div>
-            <div className={styles.cart_content}>
-              <h6>Riga Pelore</h6>
-              <div className={styles.cart_info}>
-                <div className={styles.role}>
-                  <p className="subtitle">Farmer</p>
-                </div>
-                <div className={styles.socialcs}>
-                  <a href="https://facebook.com">
-                    <FbIcon />
-                  </a>
-                  <a href="https://twitter.com/">
-                    <TwitIcon />
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div> */}
+      
         <OurTeam count={3}/>
       </section>
       <section className={styles.offers}>

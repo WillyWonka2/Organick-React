@@ -57,7 +57,7 @@ const Testimonial = () => {
               className={styles.customer_photo}
               style={{ backgroundImage: `url(${CustomerImg})` }}
             >
-              <img src={CustomerImg} alt="Sara Taylor" />
+              <img src={CustomerImg} alt="Customer Img" />
             </div>
             <div className={styles.customer_raiting}>
               <StarIcon />
