@@ -30,7 +30,7 @@ const ServiceComponent = () => {
           <div className={styles.left}>
             <div>
               <div className={styles.service_img}>
-                <img src={BottleImg} alt="" />
+                <img src={BottleImg} alt="Bottle" />
               </div>
               <h6>Dairy Products</h6>
               <p>
@@ -40,7 +40,7 @@ const ServiceComponent = () => {
             </div>
             <div>
               <div className={styles.service_img}>
-                <img src={OnlineStoreImg} alt="" />
+                <img src={OnlineStoreImg} alt="Store" />
               </div>
 
               <h6>Store Services</h6>
@@ -51,7 +51,7 @@ const ServiceComponent = () => {
             </div>
             <div>
               <div className={styles.service_img}>
-                <img src={DeliveryImg} alt="" />
+                <img src={DeliveryImg} alt="Delivery" />
               </div>
               <h6>Delivery Services</h6>
               <p>
@@ -61,12 +61,12 @@ const ServiceComponent = () => {
             </div>
           </div>
           <div className={styles.block_img}>
-            <img src={NutsImg} alt="" />
+            <img src={NutsImg} alt="Nuts" />
           </div>
           <div className={styles.right}>
             <div>
               <div className={styles.service_img}>
-                <img src={NaturalFood2Img} alt="" />
+                <img src={NaturalFood2Img} alt="Natural Food" />
               </div>
               <h6>Delivery Services</h6>
               <p>
@@ -76,7 +76,7 @@ const ServiceComponent = () => {
             </div>
             <div>
               <div className={styles.service_img}>
-                <img src={VegetablesBagImg} alt="" />
+                <img src={VegetablesBagImg} alt="Bag" />
               </div>
               <h6>Delivery Services</h6>
               <p>
@@ -86,7 +86,7 @@ const ServiceComponent = () => {
             </div>
             <div>
               <div className={styles.service_img}>
-                <img src={RadishImg} alt="" />
+                <img src={RadishImg} alt="Radish" />
               </div>
               <h6>Delivery Services</h6>
               <p>

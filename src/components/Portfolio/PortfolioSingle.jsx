@@ -16,7 +16,6 @@ const PortfolioSingle = () => {
   const navigate = useNavigate()
 
   if (!portfolio) {
-    console.log('first')
     navigate('/404')
     return <NotFound/>
   }
@@ -89,7 +88,7 @@ const PortfolioSingle = () => {
           Ipsum as their default model text, and auncover many web sites still
           in their infancy. Various versions have evolved over the years
         </p>
-        <img src={carrotImg} alt="" />
+        <img src={carrotImg} alt="Carrot" />
         <p className={styles.photo_name}>The Organic Products</p>
         <h5>About The Farm:</h5>
         <p>

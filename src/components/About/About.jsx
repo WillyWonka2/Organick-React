@@ -13,7 +13,7 @@ const About = () => {
     <section className={styles.about}>
       <div className={styles.about_img}>
         <picture>
-          <source srcset={AbouImgWebp} />
+          <source srcSet={AbouImgWebp} type="image/png" />
           <img src={AbouImg} alt="About" />
         </picture>
       </div>

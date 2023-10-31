@@ -22,7 +22,7 @@ const ContactUs = () => {
         <div className={styles.contact_us_block}>
           <div className={styles.contact_us_img}>
             <picture>
-              <source srcset={BananaImgWebp} />
+              <source srcSet={BananaImgWebp} />
               <img src={BananaImg} alt="Banana" />
             </picture>
           </div>

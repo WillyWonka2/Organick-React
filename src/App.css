@@ -90,3 +90,38 @@ a {
   text-decoration: line-through;
 cursor:not-allowed;
 }
+
+.error_display_section{
+  width: 100vw;
+  height: 100vh;
+  padding: 20px;
+  display: flex;
+  align-items: center; 
+  justify-content: center; 
+  text-align: center;
+  background-color: var(--title-color);
+  background-image: url(/src/img/bg/bgEffect.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 93% 0%;
+}
+
+.error_display_section h1{
+  color: transparent;
+  display: inline-block;
+  background-clip: text;
+  background-repeat: no-repeat;
+  background-position: 37% 10%;
+  -webkit-background-clip: text;
+}
+
+.error_display_section p{
+  color: #54bee5;
+  font-size: 26px;
+}
+
+@media screen and (max-width:  1023px){
+  .error_display_section p{
+    font-size: 20px;
+  }
+}
